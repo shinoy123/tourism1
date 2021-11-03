@@ -1,0 +1,15 @@
+body{
+    
+    background-image: url(../gr.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+ margin: 0;
+ padding: 0;
+ font-family: 'lato', sans-serif;
+}
+h1, h3{
+ font-family: 'lato', sans-serif;
+ color: #18191b;
+ font-weight: 700;
+}

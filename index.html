@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+            Travel website
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style type="text/css">
+        body{
+            font-family: 'lato', sans-serif;
+            font-size: 12px;
+           
+        }
+        nav{
+            margin: 30px auto;
+            position: relative;
+            width: 430px;
+            height: 50px;
+            background: #5f7183;
+            font-size: 0;
+        }
+        nav a{
+            line-height: 50px;
+            height: 100%;
+            font-size: 15px;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+        }
+        nav .animation{
+            position: absolute;
+            height: 100%;
+            top: 0;
+            z-index: 0;
+            transition: all 0.5s ease 0s;
+        }
+        nav a:nth-child(1){
+            width: 100px;
+        }
+        nav a:nth-child(2){
+            width: 110px;
+        }
+        nav a:nth-child(3){
+            width: 100px;
+        }
+        nav a:nth-child(4){
+            width: 110px;
+        }
+        nav .home, a:nth-child(1):hover~.animation{
+            width: 100px;
+            left: 0;
+            background: #1abc9c;
+        }
+        nav .home, a:nth-child(2):hover~.animation{
+            width: 110px;
+            left: 100px;
+            background: #2dca28;
+        }
+        nav .home, a:nth-child(3):hover~.animation{
+            width: 100px;
+            left: 210px;
+            background: #d8d532;
+        }
+        nav .home, a:nth-child(4):hover~.animation{
+            width: 110px;
+            left: 320px;
+            background: #e28e2d;
+        }
+
+        
+        </style>
+
+    </head>
+    <body>
+        <header>
+           
+            <nav>
+           
+                
+                   <a href="#">Home</a>
+                    <a href="explore.html">Explore</a>
+                    <a href="login.html">Login</a>
+                    <a href="sign_up.html">Sign up</a>
+
+                    <div class="animation home"></div>
+                
+             
+            </nav>
+        
+           
+
+        </header>
+    </body>
+</html>
